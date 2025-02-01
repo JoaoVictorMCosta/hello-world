@@ -24,5 +24,9 @@ export default class Pessoa{
         return this.birthdate;
     }
 
-
+    public toString():string{
+      return `Name: ${this.getName()}, 
+      Birthdate: ${this.getBirthdate()},
+      Email: ${this.getEmail()}`;
+    }
 }

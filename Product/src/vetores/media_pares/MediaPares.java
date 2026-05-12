@@ -1,4 +1,4 @@
-package vetores.mediaPares;
+package vetores.media_pares;
 
 import java.util.Locale;
 import java.util.Scanner;

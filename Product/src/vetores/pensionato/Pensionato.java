@@ -22,7 +22,7 @@ public class Pensionato {
             String email = sc.nextLine();
             System.out.print("Room: ");
             int numeroQuarto = sc.nextInt();
-            rents[numeroQuarto] = new Rent(nome, email, numeroQuarto);
+            rents[numeroQuarto] = new Rent(nome, email);
             System.out.println();
         }
 
@@ -30,7 +30,7 @@ public class Pensionato {
 
         for (int i = 0; i < rents.length; i++) {
             if (rents[i] != null) {
-                System.out.println(rents[i]);
+                System.out.println(i + ": " + rents[i]);
             }
         }
 
